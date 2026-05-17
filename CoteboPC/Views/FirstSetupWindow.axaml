@@ -1,0 +1,44 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="520" d:DesignHeight="420"
+        x:Class="CoteboPC.Views.FirstSetupWindow"
+        Title="CoteboPC — Первый запуск"
+        WindowStartupLocation="CenterScreen"
+        Width="520" Height="420"
+        CanResize="False"
+        Icon="/Assets/icon.png">
+
+    <Grid RowDefinitions="Auto,*,Auto" Margin="30" Background="#1E1E1E">
+        <StackPanel Grid.Row="0" Spacing="8">
+            <TextBlock Text="Добро пожаловать в CoteboPC" 
+                       FontSize="24" FontWeight="SemiBold" Foreground="#00DDFF" TextAlignment="Center"/>
+            <TextBlock Text="Настройте подключение к Telegram-боту" 
+                       FontSize="14" Foreground="#AAAAAA" TextAlignment="Center"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Spacing="20" VerticalAlignment="Center">
+            <StackPanel Spacing="8">
+                <TextBlock Text="Bot Token" FontWeight="Medium"/>
+                <TextBox x:Name="TokenBox" PlaceholderText="123456:ABC-DEF..." PasswordChar="•" Height="42" FontSize="15"/>
+            </StackPanel>
+
+            <StackPanel Spacing="8">
+                <TextBlock Text="User ID (Chat ID)" FontWeight="Medium"/>
+                <TextBox x:Name="UserIdBox" PlaceholderText="123456789" Height="42" FontSize="15"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Spacing="12" HorizontalAlignment="Center">
+                <Button Content="Где взять Bot Token?" Click="BotTokenHelp_Click" 
+                        Background="#00DDFF" Foreground="Black" Padding="20,8"/>
+                <Button Content="Где взять User ID?" Click="UserIdHelp_Click" 
+                        Background="#00DDFF" Foreground="Black" Padding="20,8"/>
+            </StackPanel>
+        </StackPanel>
+
+        <Button Grid.Row="2" Content="Сохранить и продолжить →" 
+                HorizontalAlignment="Center" Padding="40,14" FontSize="16"
+                Background="#00DDFF" Foreground="#111111" Click="SaveAndNext_Click"/>
+    </Grid>
+</Window>

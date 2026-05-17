@@ -1,0 +1,17 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="CoteboPC.Views.SecondSetupWindow"
+        Title="CoteboPC — Автозагрузка"
+        Width="560" Height="380" WindowStartupLocation="CenterScreen"
+        CanResize="False">
+
+    <Grid RowDefinitions="Auto,*,Auto" Margin="30" Background="#1E1E1E">
+        <TextBlock Grid.Row="0" Text="Настройка автозагрузки" FontSize="22" FontWeight="SemiBold" 
+                   Foreground="#00DDFF" TextAlignment="Center" Margin="0,0,0,20"/>
+
+        <StackPanel Grid.Row="1" x:Name="ContentPanel" Spacing="15"/>
+
+        <Button Grid.Row="2" x:Name="ActionButton" HorizontalAlignment="Center" 
+                Padding="40,14" FontSize="16" Click="ActionButton_Click"/>
+    </Grid>
+</Window>

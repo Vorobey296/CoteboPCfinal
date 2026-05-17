@@ -1,0 +1,8 @@
+C:\CoteboPC\CoteboPC\obj\Release\net10.0\win-x64\CoteboPC.csproj.AssemblyReference.cache
+C:\CoteboPC\CoteboPC\obj\Release\net10.0\win-x64\Avalonia\Resources.Inputs.cache
+C:\CoteboPC\CoteboPC\obj\Release\net10.0\win-x64\Avalonia\resources
+C:\CoteboPC\CoteboPC\obj\Release\net10.0\win-x64\CoteboPC.GeneratedMSBuildEditorConfig.editorconfig
+C:\CoteboPC\CoteboPC\obj\Release\net10.0\win-x64\CoteboPC.AssemblyInfoInputs.cache
+C:\CoteboPC\CoteboPC\obj\Release\net10.0\win-x64\CoteboPC.AssemblyInfo.cs
+C:\CoteboPC\CoteboPC\obj\Release\net10.0\win-x64\CoteboPC.csproj.CoreCompileInputs.cache
+C:\CoteboPC\CoteboPC\obj\Release\net10.0\win-x64\CoteboPC.sourcelink.json

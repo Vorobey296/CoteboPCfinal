@@ -1,0 +1,9 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="CoteboPC.App"
+             RequestedThemeVariant="Dark">   <!-- ← Тёмная тема здесь -->
+
+    <Application.Styles>
+        <FluentTheme />                     <!-- ← Просто так, без Mode и без Include -->
+    </Application.Styles>
+</Application>
